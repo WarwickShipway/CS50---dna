@@ -88,8 +88,6 @@ if __name__ == "__main__":
     for i in range(len(database_list)):
         database = 'databases/{}.csv' .format(database_list[i])
         sequence = 'sequences/{}.txt' .format(i+1)
-        df_STR = pd.read_csv(database)
-        df_sequence = pd.read_csv(sequence)
         result = DNA(database, sequence)
         
         assert result == assert_list[i],  \
