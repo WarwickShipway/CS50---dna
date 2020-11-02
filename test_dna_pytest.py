@@ -19,10 +19,10 @@ def DNA(database, sequence):
         n :- integer to jump to next STR repeat, to ensure they are sequentially
           repeated
 
-        Returns - None
+        Returns - name, or no match
         Results - Prints name, or "no match"
-
     '''
+    
     STR, STR_matches = [], []
     i, n = 0, 0
     
