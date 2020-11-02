@@ -1,8 +1,8 @@
 # CS50---dna
 Implement a program that identifies a person based on their DNA.
-database - file containing Short Tandem Repeats (STRs)sequences 
+"database" - file containing Short Tandem Repeats (STRs)sequences 
          and corresponding names.
-sequence - file containing the STR sequence.
+"sequence" - file containing the STR sequence.
         
 Loop through STR's, ignoring name.
 Loop through sequence, counting each repetition.
